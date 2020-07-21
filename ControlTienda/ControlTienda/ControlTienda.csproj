@@ -63,6 +63,18 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Data\Entities\Box.cs" />
+    <Compile Include="Data\Entities\CashFlow.cs" />
+    <Compile Include="Data\Entities\Category.cs" />
+    <Compile Include="Data\Entities\Devolution.cs" />
+    <Compile Include="Data\Entities\Log.cs" />
+    <Compile Include="Data\Entities\Product.cs" />
+    <Compile Include="Data\Entities\Profile.cs" />
+    <Compile Include="Data\Entities\Purchase.cs" />
+    <Compile Include="Data\Entities\PurchaseDetail.cs" />
+    <Compile Include="Data\Entities\Sale.cs" />
+    <Compile Include="Data\Entities\SaleDetail.cs" />
+    <Compile Include="Data\Entities\User.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,5 +106,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
