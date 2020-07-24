@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace ControlTienda.Data.Entities
 {
+    using System.Collections;
     using System.ComponentModel.DataAnnotations;
+    using System.Collections.Generic;
 
     public class Category
     {
@@ -18,5 +20,6 @@ namespace ControlTienda.Data.Entities
         public string Name { get; set; }
         [MaxLength (250)]
         public string Description { get; set; }
+
     }
 }

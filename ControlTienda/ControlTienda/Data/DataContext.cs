@@ -11,6 +11,10 @@ namespace ControlTienda.Data
     using Entities;
     public class DataContext : DbContext
     {
+        public DataContext() : base ("name=conection")
+        {
+        }
+
         public DbSet<Box> Cashes { get; set; }
         public DbSet<CashFlow> CashFlows { get; set; }
         public DbSet<Category> Categories { get; set; }
