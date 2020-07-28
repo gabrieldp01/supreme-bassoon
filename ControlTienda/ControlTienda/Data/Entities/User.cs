@@ -23,5 +23,8 @@ namespace ControlTienda.Data.Entities
         public string Nick { get; set; }
         [ConcurrencyCheck, MinLength (8 , ErrorMessage ="At less you need 8 characters.") , MaxLength (15, ErrorMessage = "You just need 15 characters.")]
         public string Password { get; set; }
+
+
+        public Rol Rol { get; set; }
     } 
 }

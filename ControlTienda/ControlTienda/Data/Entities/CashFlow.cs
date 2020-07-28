@@ -18,5 +18,9 @@ namespace ControlTienda.Data.Entities
 
         [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
         public decimal DischargeAmount { get; set; }
+
+
+
+        public Box Box { get; set; }
     }
 }

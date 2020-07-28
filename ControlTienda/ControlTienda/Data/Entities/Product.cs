@@ -23,5 +23,6 @@ namespace ControlTienda.Data.Entities
         public double Stock {get; set; }
 
 
+        public Category Category { get; set; }
     }
 }

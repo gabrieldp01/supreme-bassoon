@@ -25,5 +25,9 @@ namespace ControlTienda.Data.Entities
 
         [DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
         public int Quantity { get; set; }
+
+
+
+        public CashFlow CashFlow { get; set; }
     }
 }

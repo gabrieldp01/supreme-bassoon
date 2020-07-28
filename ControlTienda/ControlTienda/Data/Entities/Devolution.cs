@@ -18,5 +18,8 @@ namespace ControlTienda.Data.Entities
         [MaxLength (250)]
         public string Observation { get; set; }
 
+
+        public SaleDetail SaleDetail { get; set; }
+
     }
 }
